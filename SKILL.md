@@ -23,10 +23,11 @@ Hermes Gateway가 자동으로 Telegram `send_photo()`를 호출한다.
 
 ## 실행 방법
 
-아래 명령을 실행한다. `SKILL_DIR`은 이 SKILL.md 파일이 위치한 디렉토리의 절대 경로다.
+1. 사용자 프롬프트가 한국어(또는 비영어)인 경우 **영어로 번역**한다.
+2. 아래 명령을 실행한다. `SKILL_DIR`은 이 SKILL.md 파일이 위치한 디렉토리의 절대 경로다.
 
 ```
-node {SKILL_DIR}/scripts/image-gen.js "{user_prompt}"
+node {SKILL_DIR}/scripts/image-gen.js "{영어로 번역된 prompt}"
 ```
 
 ## 반환 처리
