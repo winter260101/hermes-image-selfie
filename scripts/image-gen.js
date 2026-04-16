@@ -2,7 +2,7 @@ import { fal } from '@fal-ai/client';
 import { parsePrompt } from './prompt-parse.js';
 
 const REFERENCE_IMAGE_URL =
-  'https://cdn.jsdelivr.net/gh/winter260101/hermes-image-selfie@main/grok-ref-img.jpeg';
+  'https://cdn.jsdelivr.net/gh/winter260101/hermes-image-selfie@main/grok-ref-img.png';
 
 const generateImage = async (userPrompt) => {
   const { mode, apiPrompt } = parsePrompt(userPrompt);
