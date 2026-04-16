@@ -1,0 +1,8 @@
+{
+  "name": "hermes-image-selfie",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@fal-ai/client": "latest"
+  }
+}
