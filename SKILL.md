@@ -26,7 +26,7 @@ Hermes Gateway가 자동으로 Telegram `send_photo()`를 호출한다.
 2. Run the following command:
 
 ```bash
-node ~/.hermes/skills/media/hermes-image-selfie/scripts/image-gen.js "translated English prompt"
+FAL_KEY=$(grep -E '^FAL_KEY=' ~/.hermes/.env | tail -1 | cut -d= -f2-) node ~/.hermes/skills/media/hermes-image-selfie/scripts/image-gen.js "translated English prompt"
 ```
 
 ## Output Handling
